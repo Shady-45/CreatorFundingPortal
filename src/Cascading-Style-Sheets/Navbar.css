@@ -1,0 +1,47 @@
+.nav {
+    display: flex;
+    justify-content: center; 
+    gap : 4rem;
+    width : 80vw;
+    align-items: center;
+    margin : 1.5rem auto 0 auto;
+}
+
+.nav input {
+    width: 31rem;
+    height: 2.5rem;
+    padding: 9px;
+    background: rgb(189, 189, 189);
+}
+.search-img{
+    
+    font-size: 2rem;
+    color: whitesmoke;
+    padding: 0.23rem 0.5rem;
+    margin-left: -4rem;
+}
+.search-img:hover{
+    background-color: gray;
+    color: white;
+}
+
+.nav button{
+    padding: 0.6rem 2rem;
+    color: white;
+  background-color: #02050E;
+
+    border: 2px solid white;
+
+
+}
+
+.nav button:hover{
+    background-color: rgb(189, 189, 189);
+    color: black;
+}
+
+.nav input::placeholder{
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins',sans-serif;
+}
