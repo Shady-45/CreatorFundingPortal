@@ -11,6 +11,7 @@ const Navbar = () => {
         <BsSearch className="search-img" />
         <button>Sign Up</button>
         <img src={wallet} height={45} width={45} alt="" />
+        <span className="avatar"></span>
       </div>
     </>
   );
