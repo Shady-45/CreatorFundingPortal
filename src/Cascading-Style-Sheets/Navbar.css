@@ -4,31 +4,36 @@
     gap : 4rem;
     width : 80vw;
     align-items: center;
+    padding-top: 2rem;
+   margin-left: 4rem;
     margin : 1.5rem auto 0 auto;
 }
 
 .nav input {
-    width: 31rem;
-    height: 2.5rem;
+    width: 35rem;
+    height: 3rem;
+    color: whitesmoke;
     padding: 9px;
-    background: rgb(189, 189, 189);
+    background:black;
+    border: 3.5px solid white;
 }
 .search-img{
     
-    font-size: 2rem;
+    font-size: 2.6rem;
     color: whitesmoke;
     padding: 0.23rem 0.5rem;
     margin-left: -4rem;
 }
 .search-img:hover{
-    background-color: gray;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
 }
 
 .nav button{
     padding: 0.6rem 2rem;
     color: white;
   background-color: #02050E;
+  font-family: "Poppins",sans-serif;
 
     border: 2px solid white;
 
@@ -36,7 +41,7 @@
 }
 
 .nav button:hover{
-    background-color: rgb(189, 189, 189);
+    background-color: whitesmoke;
     color: black;
 }
 
@@ -44,4 +49,39 @@
     color: white;
     font-weight: bold;
     font-family: 'Poppins',sans-serif;
+}
+
+.account{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: white;
+}
+.dropdown-sign-in-click{
+    position: absolute;
+    top: 14.6%;
+    left: 55.8%;
+    /* right: 50%; */
+    padding: 4px;
+    width: 7%;
+    background: whitesmoke;
+    color: black;
+    list-style: none;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) ease-in ;
+    transition-duration: 3000ms;
+    
+}
+.dropdown-sign-up-click{
+    position: absolute;
+    top: 14.6%;
+    left: 67.5%;
+    /* right: 50%; */
+    padding: 4px;
+    width: 7%;
+    background: whitesmoke;
+    color: black;
+    list-style: none;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) ease-in ;
+    transition-duration: 6000ms;
+    
 }
