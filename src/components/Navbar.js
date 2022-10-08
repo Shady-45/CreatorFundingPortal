@@ -8,7 +8,9 @@ const Navbar = () => {
     <>
       <div className="nav">
         <input type="search" name="" id="" placeholder="Search" />
-        <BsSearch className="search-img" />
+        <div className="search-logo">
+          <BsSearch className="search-img" />
+        </div>
         <button>Sign Up</button>
         <img src={wallet} height={45} width={45} alt="" />
         <span className="avatar"></span>

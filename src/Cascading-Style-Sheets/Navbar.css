@@ -17,12 +17,18 @@
 }
 
 .search-img {
-  display: block;
-  font-size: 2rem;
-  width: 3.5rem;
+  font-size: 1.8rem;
   color: whitesmoke;
   margin-left: -4rem;
 }
+
+.search-logo {
+  justify-self: center;
+  padding: 1rem;
+  /* height: 3rem; */
+  /* width: 3rem; */
+}
+
 .search-img:hover {
   background-color: gray;
   color: white;

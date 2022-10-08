@@ -4,7 +4,7 @@ import "../Cascading-Style-Sheets/Hero.css";
 const Hero = () => {
   return (
     <>
-      <section className="hero">
+      <section className="section section-hero">
         <div className="left-text">
           <h1 className="main-heading">
             Discover a New Era of Crypto Currency

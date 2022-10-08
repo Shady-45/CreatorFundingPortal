@@ -20,10 +20,20 @@ body {
 :root {
   --color-heading: #e6e6e6;
   --secondary: #ccccff;
+  --color-background: #272d37;
   --buttons: #4d4dff;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.section {
+  margin-bottom: 5rem !important;
+}
+
+.section-heading {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
 }
