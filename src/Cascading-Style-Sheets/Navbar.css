@@ -4,7 +4,7 @@
   gap: 4rem;
   width: 80vw;
   align-items: center;
-  margin: 0.5rem auto 0 auto;
+  margin: 1rem auto 0 auto;
 }
 
 .nav input {
@@ -32,7 +32,7 @@
   color: white;
 }
 
-.nav button {
+.btn-nav {
   padding: 0.6rem 2rem;
   color: white;
   background-color: #02050e;
@@ -41,7 +41,7 @@
   transition: border 0.3s;
 }
 
-.nav button:hover {
+.btn-nav:hover {
   cursor: pointer;
   border: 2px solid var(--buttons-active);
 }

@@ -31,10 +31,13 @@ code {
 }
 
 .section {
+  width: 80vw;
+  margin: 0 auto 0 auto;
   margin-bottom: 5rem !important;
 }
 
 .section-heading {
+  color: var(--color-heading);
   font-size: 2.8rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }

@@ -1,14 +1,9 @@
 .section-movie {
   color: var(--color-heading);
-  width: 80vw;
-  margin: 0 auto 0 auto;
 }
 
-.heading {
+.heading-movie {
   text-align: center;
-  font-size: 2.8rem;
-  line-height: 1.2;
-  margin-bottom: 1.5rem;
 }
 
 .cards {
@@ -28,16 +23,19 @@
   border-radius: 1.5rem;
 }
 
+.card-img,
+.text-details {
+  width: 85%;
+}
+
 .card-img {
   height: 60%;
-  width: 85%;
   object-fit: cover;
   border-radius: 1.5rem;
   margin-top: 1.5rem;
 }
 
 .text-details {
-  width: 85%;
   font-size: 0.9rem;
 }
 
@@ -52,7 +50,13 @@
   align-items: center;
 }
 
-.currency {
+.name,
+.price {
+  color: var(--color-heading);
+}
+
+.currency,
+.author {
   color: var(--secondary);
 }
 
