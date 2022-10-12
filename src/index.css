@@ -33,11 +33,36 @@ code {
 .section {
   width: 80vw;
   margin: 0 auto 0 auto;
-  margin-bottom: 5rem !important;
+  margin-bottom: 7rem !important;
 }
 
 .section-heading {
   color: var(--color-heading);
   font-size: 2.8rem;
   margin-bottom: 2rem;
+}
+
+.heading-script-music {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.heading-script-music h2 {
+  margin: 0;
+}
+
+.btn-script-music {
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.btn-script-music-buy {
+  border: none;
+  height: 2.5rem !important;
+  width: 7rem !important;
+  align-self: flex-end;
+  margin-right: 1.7rem;
 }
