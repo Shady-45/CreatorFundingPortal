@@ -37,7 +37,7 @@
 
 .hero-btn:hover {
   cursor: pointer;
-  background-color: #1a1aff;
+  background-color: var(--buttons-active);
 }
 
 .right-img {

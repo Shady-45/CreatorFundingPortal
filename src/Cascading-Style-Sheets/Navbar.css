@@ -4,7 +4,7 @@
   gap: 4rem;
   width: 80vw;
   align-items: center;
-  margin: 1.5rem auto 0 auto;
+  margin: 0.5rem auto 0 auto;
 }
 
 .nav input {
@@ -25,8 +25,6 @@
 .search-logo {
   justify-self: center;
   padding: 1rem;
-  /* height: 3rem; */
-  /* width: 3rem; */
 }
 
 .search-img:hover {
@@ -38,12 +36,14 @@
   padding: 0.6rem 2rem;
   color: white;
   background-color: #02050e;
-  border: 1.5px solid var(--buttons);
+  border: 2px solid var(--buttons);
   border-radius: 10px;
+  transition: border 0.3s;
 }
 
 .nav button:hover {
-  border: 2px solid var(--buttons);
+  cursor: pointer;
+  border: 2px solid var(--buttons-active);
 }
 
 .nav input::placeholder {

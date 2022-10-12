@@ -22,6 +22,7 @@ body {
   --secondary: #b3b3b3;
   --color-background: #272d37;
   --buttons: #4d4dff;
+  --buttons-active: #1a1aff;
 }
 
 code {
