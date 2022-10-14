@@ -1,6 +1,7 @@
 .section-hero {
   color: var(--color-heading);
   display: flex;
+  margin-top: 4rem;
 }
 
 .left-text {

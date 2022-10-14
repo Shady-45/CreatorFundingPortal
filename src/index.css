@@ -2,6 +2,7 @@
 
 html {
   overflow-x: hidden;
+  position: relative;
 }
 
 * {
@@ -65,4 +66,8 @@ code {
   width: 7rem !important;
   align-self: flex-end;
   margin-right: 1.7rem;
+}
+
+.card:hover {
+  transform: translateY(-7px);
 }

@@ -21,6 +21,7 @@
   grid-template-rows: 10fr 2fr 1fr;
   background-color: var(--color-background);
   border-radius: 1.5rem;
+  transition: transform 0.3s;
 }
 
 .card-img,

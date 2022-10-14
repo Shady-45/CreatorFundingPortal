@@ -1,8 +1,8 @@
 import React from "react";
 // import "../Cascading-Style-Sheets/Music.css";
-import script1 from "../assets/script1.jpg";
-import script2 from "../assets/script2.jpg";
-import script3 from "../assets/script3.jpg";
+import music1 from "../assets/music1.jpg";
+import music2 from "../assets/music2.jpg";
+import music3 from "../assets/music3.jpg";
 
 export default function Music() {
   return (
@@ -14,7 +14,7 @@ export default function Music() {
         </div>
         <div className="cards">
           <div className="card card-1">
-            <img className="card-img" src={script1} alt="" />
+            <img className="card-img" src={music1} alt="" />
             <div className="text-details">
               <div className="firstrow">
                 <p className="name">Dao Vinci</p>
@@ -22,7 +22,7 @@ export default function Music() {
               </div>
               <div className="secondrow">
                 <p className="author">
-                  <img className="avatar author-img" src={script1} />
+                  <img className="avatar author-img" src={music1} />
                   <p className="author-name">Johnson</p>
                 </p>
                 <p className="price">40.89 eTH</p>
@@ -31,7 +31,7 @@ export default function Music() {
             <button className="btn-script-music-buy  hero-btn">Buy</button>
           </div>
           <div className="card card-2">
-            <img className="card-img" src={script2} alt="" />
+            <img className="card-img" src={music2} alt="" />
             <div className="text-details">
               <div className="firstrow">
                 <p className="name">Fangster</p>
@@ -39,7 +39,7 @@ export default function Music() {
               </div>
               <div className="secondrow">
                 <p className="author">
-                  <img className="avatar author-img" src={script2} />
+                  <img className="avatar author-img" src={music2} />
                   <p className="author-name">Stephen</p>
                 </p>
                 <p className="price">40.89 eTH</p>
@@ -48,7 +48,7 @@ export default function Music() {
             <button className="btn-script-music-buy  hero-btn">Buy</button>
           </div>
           <div className="card card-3">
-            <img className="card-img" src={script3} alt="" />
+            <img className="card-img" src={music3} alt="" />
             <div className="text-details">
               <div className="firstrow">
                 <p className="name">Sherbet</p>
@@ -56,7 +56,7 @@ export default function Music() {
               </div>
               <div className="secondrow">
                 <p className="author">
-                  <img className="avatar author-img" src={script3} />
+                  <img className="avatar author-img" src={music3} />
                   <p className="author-name">Tyson</p>
                 </p>
                 <p className="price">40.89 eTH</p>
