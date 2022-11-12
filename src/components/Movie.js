@@ -8,7 +8,6 @@ export default function Movie() {
   return (
     <section className="section section-movie">
       <h1 className="section-heading heading-movie">Hot NFTs</h1>
-      <h2 className="section-heading">MOVIE</h2>
       <div className="cards">
         <div className="card card-1">
           <img className="card-img" src={movie1} alt="" />
