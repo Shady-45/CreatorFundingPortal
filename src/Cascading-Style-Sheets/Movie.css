@@ -8,7 +8,7 @@
 
 .cards {
   display: flex;
-  gap: 2rem;
+  justify-content: space-around;
 }
 
 .card {
